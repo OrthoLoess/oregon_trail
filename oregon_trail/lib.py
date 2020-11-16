@@ -10,6 +10,12 @@ import datetime
 pd.set_option('display.width', 200)
 
 
+def try_me(action='die'):
+    if action == 'hunt':
+        print('You were accidentally shot by a member of your party.')
+    else:
+        print('You have died of dysentery')
+
 def clean_data(data):
     """ clean data
     """
